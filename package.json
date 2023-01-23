@@ -1,0 +1,29 @@
+{
+  "name": "karar-atm",
+  "version": "1.1.0",
+  "description": "Node js ATM. Features: 1) Create account 2) Withdraw 3) Transfer",
+  "main": "app.js",
+  "type": "module",
+  "bin": {
+    "kararatm": "build/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18"
+  }
+}
